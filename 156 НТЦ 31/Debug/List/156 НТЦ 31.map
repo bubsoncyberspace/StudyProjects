@@ -1,0 +1,48 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+digit_data                                                                        0x0515       2
+rx_buffer0                                                                        0x0517       8
+_base_y                                                                           0x051F       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+digit                                                                             R4           1
+digit_point                                                                       R3           1
+s                                                                                 R6           1
+number                                                                            R5           1
+ms                                                                                R7,R8        2
+input_flag                                                                        R2.0      1bit
+rx_wr_index0                                                                      R10          1
+rx_rd_index0                                                                      R9           1
+rx_counter0                                                                       R12          1
+rx_buffer_overflow0                                                               R2.1      1bit
+_lcd_x                                                                            R11          1
+_lcd_y                                                                            R14          1
+_lcd_maxx                                                                         R13          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart0_rx_isr                                                                     0x000A3     40
+getchar                                                                           0x000CB     19
+NumberTHScreen                                                                    0x000DE    164
+timer0_comp_isr                                                                   0x00182     72
+main                                                                              0x001CA    235
+_lcd_write_nibble_G100                                                            0x002B5     20
+_lcd_write_data                                                                   0x002C9     12
+lcd_gotoxy                                                                        0x002D5     13
+lcd_clear                                                                         0x002E2     18
+lcd_putchar                                                                       0x002F4     21
+lcd_puts                                                                          0x00309     17
+lcd_init                                                                          0x0031A     58
+put_buff_G101                                                                     0x00354     64
+_print_G101                                                                       0x00394    372
+sprintf                                                                           0x00508     60
+strlen                                                                            0x00544     12
+strlenf                                                                           0x00550     13

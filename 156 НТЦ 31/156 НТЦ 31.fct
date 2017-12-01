@@ -1,0 +1,5 @@
+main DSTACK_USAGE:25 DSTACK_LEVEL:25 FILE:"156 Õ“÷ 31.c" LINE:209
+sprintf DSTACK_USAGE:14 DSTACK_LEVEL:39 FILE:"c:\cvavreval\lib\stdio.lib" LINE:1410
+_print DSTACK_USAGE:20 DSTACK_LEVEL:59 FILE:"c:\cvavreval\lib\stdio.lib" LINE:503
+strlen DSTACK_USAGE:2 DSTACK_LEVEL:61 FILE:"c:\cvavreval\lib\string.lib" LINE:1707
+timer0_comp_isr DSTACK_USAGE:12 DSTACK_LEVEL:73 FILE:"156 Õ“÷ 31.c" LINE:194

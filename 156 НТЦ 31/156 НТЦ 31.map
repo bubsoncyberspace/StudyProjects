@@ -1,0 +1,27 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+digit_data                                                        0x0515       2
+rx_buffer0                                                        0x0517       8
+_base_y                                                           0x051F       4
+_lcd_y                                                            0x0523       1
+_lcd_maxx                                                         0x0524       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+digit                                                             R5           1
+digit_point                                                       R4           1
+s                                                                 R7           1
+number                                                            R6           1
+ms                                                                R8,R9        2
+input_flag                                                        R2.0      1bit
+rx_wr_index0                                                      R11          1
+rx_rd_index0                                                      R10          1
+rx_counter0                                                       R13          1
+rx_buffer_overflow0                                               R2.1      1bit
+_lcd_x                                                            R12          1
