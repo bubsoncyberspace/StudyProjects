@@ -1,0 +1,48 @@
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 150%;
+}
+
+th, td
+{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th
+{
+    color: white;
+    background: lightblue;
+    border-color: black;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+a.but{
+    text-decoration: none;
+    border: 2px solid lightblue;
+    padding: 10px;
+    transition: background 1s, color 1s;
+    color: lightblue;
+    display: table;
+    margin: 0 auto;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+
+a.but:hover{
+    background: lightblue;
+    color: white;
+}
+
+table.tiny{
+    width: 50%;
+    float:left;
+}
